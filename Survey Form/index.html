@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <title>Hearing Aid Survey for current users</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head> 
+  <body> 
+    <h1 id="title">Center For Better Hearing: HA Survey</h1>
+    <p id="description">Thank you for taking the time to share your experience</p>
+<form id="survey-form">
+ <div class="input-element">
+  <label id="name-label">
+    Name:
+     <input id="name" type="text" placeholder="John Doe" required />
+    </label> 
+  </div>
+  <div class="input-element">
+  <label id="email-label">
+    Email:
+     <input id="email" type="email" placeholder="example@gmail.com" required />
+    </label> 
+  </div>
+  <div class="input-element">
+  <label id="number-label">
+    Age:
+     <input id="number" type="number" min="15" max="125" placeholder="65" required />
+  </div>
+  <div>
+    <label class="select-label">
+      Which brand of hearing aids do you use?
+      <select id="dropdown">
+        <option>ReSound</option>
+        <option>Phonak</option>
+        <option>Starkey</option>
+        <option>Other</option>
+      </select>
+     </label>
+  </div>
+  <div>
+    <label>How long have you been using hearing aids?</label>
+    <input id="how-long" name="how-long" type="text" </>
+  </div>
+  <div class="radio-label">
+  <label>
+Would you recommend hearing aids to your friends?</label>      
+<label>
+<input name="friends" type="radio" value="yes"> Yes</label> 
+    <input name="friends" type="radio" value="no"> No</input> 
+  </label>
+  </div>
+ <div>
+    <label>
+      Which of these features is your favorite?</label>
+      <select id="dropdown">
+        <option>App control</option>
+        <option>TV streamer</option>
+        <option>Bluetooth phone connection</option>
+        <option>Find my devices</option>
+        <option>Not listed</option>
+        </select>
+  </div>
+  <div>
+    <label>Places/times you've noticed improvement:</label>
+    <label>
+    <input value="Resteraunts" type="checkbox" name="improve">Resteraunts</>
+    <label><input value="At-home" type="checkbox" name="improve">At home</input>
+    <label><input value="Stores" type="checkbox" name="improve">Stores</input>
+    <label><input value="gatherings" type="checkbox" name="improve">Social gatherings</input>
+    <label><input value="calls" type="checkbox" name="improve">Phone calls</input>
+  </div>
+  <label>Additional comments:</label>
+  <textarea type="text"></textarea>
+  <button class="button" id="submit" type="submit">Submit</button>
+ 
+
+
+
+</form>
+
+
+
+
+
+
+</html>
